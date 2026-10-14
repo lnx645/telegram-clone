@@ -1,0 +1,9 @@
+{application, tc, [
+    {description, "Telegram Clone backend"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {tc_app, []}},
+    {applications, [kernel, stdlib, mnesia, crypto, cowboy, jsx]},
+    {env, [{port, 8080}]},
+    {modules, []}
+]}.

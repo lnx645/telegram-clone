@@ -1,0 +1,11 @@
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+_build/
+backend/_build/
+data/
+*.dump
+erl_crash.dump
+.DS_Store
+*.log
