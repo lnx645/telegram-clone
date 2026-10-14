@@ -9,3 +9,5 @@ data/
 erl_crash.dump
 .DS_Store
 *.log
+backend/Mnesia*/
+Mnesia*/
